@@ -9,7 +9,7 @@ let audio = new Audio();
 })
 
 export class AppComponent {
-  title = 'bier';
+  title = 'Victor Hugo Bier Silva';
   /* Dados da tabela */
   data=[
     {
@@ -47,7 +47,6 @@ export class AppComponent {
       date:'04/01/2000',
       curso:'Desenvolvimento Web'
     },
-
   ]
 
   /* Funções para executar e pausar a música */

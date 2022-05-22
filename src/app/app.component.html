@@ -4,7 +4,7 @@
 <html>
   <head></head>
 
-  <div class="toolbar wrapper" role="banner">
+  <div class="toolbar wrapper">
     <img
       width="40"
       alt="Angular Logo"
@@ -73,7 +73,7 @@
           </tr>
         </thead>
         <tbody>
-          <!-- For looping requisitado na atividade -->
+          <!-- ngFor, loop requerido pela atividade para listar os alunos -->
           <tr *ngFor="let item of data">
             <th scope="row">{{ item.id }}</th>
             <td>{{ item.name }}</td>
